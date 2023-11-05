@@ -1,0 +1,159 @@
+*{
+    margin: 0;padding: 0;
+ 
+   
+}
+html,body{
+    background: black;
+    
+    width: 100vw;
+   overflow-x: auto;
+
+}
+.one
+{
+    display: flex;
+    height: 10rem;
+    justify-content: space-between;
+    padding-left: 3rem;
+}
+.ek{
+    display:flex;
+    align-items: center;
+   min-width: 25rem;
+    justify-content: space-around;
+    /* gap: 7rem; */
+}
+button{
+    width: 35%;
+    height: 27%;
+    border-radius: 4rem;
+    background-color: #b3d3dbcc;
+    border: transparent;
+    font-size: 1.1rem;
+}
+button:hover{
+    background: #c342c1de;
+    box-shadow: 0 0 30px #fff;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 30px greenyellow;
+   
+}
+.matter{
+    min-width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    gap: 1rem;
+   text-shadow: 5px 6px 6px  #e22727;
+  
+
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.box1,.box2,.box3{
+    height: 15rem;
+    min-width: 15rem;
+    background:black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+    box-shadow: 0 0 30px red;
+}
+.b{
+   width: 50%;
+   height: 15%;
+}
+.six{
+   
+    width: 100%;
+    background-color: rgb(126, 154, 126);
+    border-top: 6px solid rgb(243, 243, 206);
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content:space-evenly;
+    background: linear-gradient(rgba(18, 212, 183, 0.247),rgba(85, 176, 161, 0.484));
+    margin-top: 4rem;
+    
+} 
+.list ul{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+}
+.list_set{
+    display: flex;
+    justify-content: space-between;
+    gap: 9rem;
+  margin-left: 14%;
+  
+}
+
+@media (max-width:720px) {
+  .ek{
+    flex-direction: column;
+    gap:2rem;
+    justify-content: center;
+  }
+  button{
+    min-width: 8rem;
+    height: 25%;
+    font-size: 1rem;
+    
+  }
+ .matter{
+    justify-content: center;
+    align-items: center;
+ }
+ .two{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 3rem;
+   
+}
+.a{
+    width: 20rem;
+}
+.flex{
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.list_set{
+    display: flex;
+      justify-content: center;
+      height: 100%;
+      align-items: start;
+      margin-left: 0px;
+      gap: 4rem;
+      flex-wrap: nowrap;
+  }
+  .list ul{
+      flex-wrap: nowrap;
+      
+  }
+ 
+  .six{
+    width: max-content;
+      align-items: center;
+      justify-content: center;
+  }
+}
